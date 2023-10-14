@@ -51,7 +51,7 @@ def predd(input_parameters : model_input):
 
     
     prediction = model.predict(narr)
-    return prediction
+    return prediction[0]
 #uvicorn Api:app
     
    
